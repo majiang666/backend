@@ -1,4 +1,9 @@
 # 基于ant design vue重新构建了后台管理系统
+
+# 初始化项目：
+1：加入了登录校验
+2：系统框架构建
+
 # backend
 
 ## Project setup
