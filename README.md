@@ -1,4 +1,4 @@
-<<<<<<< HEAD:backend/README.md
+# 基于ant design vue重新构建了后台管理系统
 # backend
 
 ## Project setup
