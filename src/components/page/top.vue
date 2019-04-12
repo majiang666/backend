@@ -36,6 +36,7 @@ export default {
       const { info } = Modal;
       info({
         title: '用户信息',
+        iconType:'user',
         content: (
           <div>
             <p>用户名：admin</p>

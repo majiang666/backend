@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import { Layout,Menu,Icon,Breadcrumb,Dropdown,Avatar,Card,Row,Col,Input,Table,Affix,Button,Pagination } from 'ant-design-vue';
+import { Layout,Menu,Icon,Breadcrumb,Dropdown,Modal,Avatar,Card,Row,Col,Input,Table,Affix,Button,Pagination,Spin } from 'ant-design-vue';
 Vue.use(Layout);
 Vue.use(Menu);
 Vue.use(Icon);
@@ -17,6 +17,8 @@ Vue.use(Table);
 Vue.use(Affix);
 Vue.use(Button);
 Vue.use(Pagination);
+Vue.use(Spin);
+Vue.use(Modal);
 Vue.config.productionTip = false;
 //路由全局钩子函数 beforeEach afterEach
 router.beforeEach((to,from,next) => {

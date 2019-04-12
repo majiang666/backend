@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Loading :loadingFlag='loadingFlag' />
       <keep-alive>
         <router-view></router-view>
       </keep-alive>
@@ -7,8 +8,17 @@
 </template>
 
 <script>
+const Loading = () => import('@/components/common/loading');
 export default {
-  name: 'app'
+  name: 'app',
+  data(){
+    return {
+      loadingFlag:false
+    }
+  },
+  components: {
+    Loading
+  }
 }
 </script>
 
